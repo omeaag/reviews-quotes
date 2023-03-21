@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(210deg 36% 96%);
+}
+
+.underline{
+    height: 0.25rem;
+    width: 5rem;
+    background: hsl(205deg 78% 60%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    font-family: "Roboto", sans-serif;
+    width: 45%;
+    height: 600px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.review{
+    text-align: center;
+    margin: 5px 5px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100%;
+    position: relative;
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#name{
+    margin-top: 5px;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+}
+
+#job{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+    color: hsl(205deg 78% 60%);
+}
+
+#info{
+    margin: 20px 20px 0px 20px;
+    color: hsl(210deg 22% 49%);
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+
+.buttons{
+    margin-top: 10px;
+}
+
+button{
+    background: transparent;
+    border: none;
+    margin: 8px 0;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+button i{
+    color: hsl(205deg 90% 76%);
+    font-size: 1.2rem;
+    font-weight: 900;
+    transition: all 0.3s linear;
+}
+
+.random-btn{
+    color: hsl(205deg 78% 60%);
+    border-radius: 0.5rem;
+    padding: 5px;
+    text-transform: capitalize;
+    border: 2px solid hsl(205deg 78% 60%);
+    background-color: hsl(205deg 100% 96%);
+}
+.random-btn:hover{
+    background-color: hsl(205deg 78% 60%);
+    color: hsl(205deg 86% 17%);
+}
+
+button i:hover{
+    color: hsl(205deg 86% 17%);
+}
+
+
+
